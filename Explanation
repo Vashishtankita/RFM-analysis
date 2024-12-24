@@ -1,0 +1,8 @@
+- This R script performs RFM (Recency, Frequency, Monetary) analysis on customer data. RFM analysis is a marketing technique used to segment customers based on their purchasing behavior. Here's a brief explanation of the code:
+- The script loads the necessary library (dplyr) and sets a seed for reproducibility.
+- It reads customer data from a CSV file named "retail_ankita.csv".
+- The analysis is performed using two methods: independent sorting and sequential sorting.
+- For independent sorting, it calculates recency, frequency, and monetary scores separately using quintiles.
+- For sequential sorting, it calculates these scores in a nested manner, considering the previous scores.
+- The results are combined into RFM scores for both methods.
+- Finally, the results are exported to a new CSV file named "retail_ankita_RESULTS.csv".
